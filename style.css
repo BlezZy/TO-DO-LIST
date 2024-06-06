@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(86,171,255,0.38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.title--icon{
+    padding: 0 0.5rem;
+}
+input{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+input:focus{
+    outline: 0;
+}
+#add--task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 45vh;
+    height: 5vh;
+    border-radius: 20px;
+    margin: 1rem 0 3rem 0;
+    background-color: lightgray;
+}
+#add--task--input{
+    height: 100%;
+    margin: 1rem;
+}
+.plus--icon{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: limegreen;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tasks--todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 45vh;
+    height: 5vh;
+    padding: 0 1rem;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+.tasks--todo--ipnut{
+    height: 100%;
+}
+.pencil--icon{
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.trash--icon{
+    cursor: pointer;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
